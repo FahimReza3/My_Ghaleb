@@ -1,8 +1,12 @@
+@import url('https://v1.fontapi.ir/css/Vazir');
+
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Poppis' , sans-serif;
+    font-family: 'Vazir' , sans-serif;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -308,4 +312,88 @@ nav ul li a:hover::after{
 
 .btn:hover{
     background: #ff004f;
+}
+
+
+/* ---------------Contact--------------- */
+
+#Contact{}
+
+.Contact-Right{
+    flex-basis: 60%;
+}
+
+.Contact-Right form{
+    width: 100%;
+}
+
+form input , form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Vazir',sans-serif;
+
+}
+
+form btn2{
+    font-size: 18px;
+    padding: 14px 60px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.Contact-Left{
+    flex-basis: 35%;
+}
+
+.Contact-Left p{
+    margin-top: 30px;
+}
+
+.Contact-Left p i{
+    color: #ff004f;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.Social-icons{
+    margin-top: 30px;
+}
+
+.Social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.Social-icons a:hover{
+    color: #ff004f;
+    transform: translateY(-5px);
+}
+
+.btn2{
+    display: inline-block;
+}
+
+.CopyRight{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.Contact-Right i{
+    color: #ff004f;
 }
