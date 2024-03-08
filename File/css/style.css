@@ -17,7 +17,7 @@ body{
 #Header{
     width: 100%;
     height: 100vh;
-    background-image: url("../img/Untitled-2.png");
+    background-image: url("../img/MyPhoto3.png");
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -422,7 +422,7 @@ form btn2{
 
 @media only screen and (max-width: 600px) {
     #Header {
-        background-image: url("../img/phone-background.png");
+        background-image: url("../img/MyPhoto2.png");
     }
 
     .Header-Text {
