@@ -24,6 +24,11 @@ body{
 
 }
 
+#Header .fas{
+    display: none;
+}
+
+
 .Container {
     padding: 10px 10%;
 }
@@ -317,7 +322,6 @@ nav ul li a:hover::after{
 
 /* ---------------Contact--------------- */
 
-#Contact{}
 
 .Contact-Right{
     flex-basis: 60%;
@@ -410,7 +414,11 @@ form btn2{
 }
 
 
+
 /* ----------css  for small screen ----------  */
+
+
+
 
 @media only screen and (max-width: 600px) {
     #Header {
@@ -426,13 +434,63 @@ form btn2{
         font-size: 30px;
     }
 
-    .Header-Text span{
+    #Header nav .fas{
+        display: block;
+        font-size: 30px;
+    }
+
+    nav ul{
+        background-color: #ff004f;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+
+    nav ul .fas{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
 
     }
 
+    .sub-Title{
+        font-size: 40px;
+    }
+    .About-col-1,.About-col-2{
+        flex-basis: 100%;
+    }
 
+    .About-col-1{
+        margin-bottom: 20px;
+    }
 
+    .About-col-2{
+        font-size: 14px;
+    }
+    
+    .Tab-Links{
+        font-size:16px;
+        margin-right:20px ;
+    }
+    
+    .Contact-Left,.Contact-Right{
+        flex-basis: 100%;
+    }
 
+    .CopyRight{
+        font-size: 14px;
+    }
 
 
 
