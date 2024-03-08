@@ -397,3 +397,51 @@ form btn2{
 .Contact-Right i{
     color: #ff004f;
 }
+
+.CopyRight h1{
+    color: #0f0d09;
+    font-size: 25px;
+    font-weight: 500;
+    text-shadow: 0 0 3px red;
+}
+
+.CopyRight h1 span{
+    color: cyan;
+}
+
+
+/* ----------css  for small screen ----------  */
+
+@media only screen and (max-width: 600px) {
+    #Header {
+        background-image: url("../img/phone-background.png");
+    }
+
+    .Header-Text {
+        margin-top: 100%;
+        font-size: 16px;
+    }
+
+    .Header-Text h1{
+        font-size: 30px;
+    }
+
+    .Header-Text span{
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
